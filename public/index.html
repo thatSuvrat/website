@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas Projects</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .project-card {
+      transition: transform 0.3s ease-in-out;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="container my-5">
+    <h1 class="text-center mb-5">Canvas Projects</h1>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card h-100 shadow project-card">
+          <img src="./basic.png" class="card-img-top" alt="Bouncing Ball">
+          <div class="card-body">
+            <h5 class="card-title">Most Basic Bouncing Ball Animation</h5>
+            <p class="card-text">A simple demonstration of a bouncing ball using HTML5 Canvas.</p>
+            <a href="./bouncing_ball.html" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow project-card">
+          <img src="./multiple.png" class="card-img-top" alt="Multiple Balls">
+          <div class="card-body">
+            <h5 class="card-title">Multiple Bouncing Balls</h5>
+            <p class="card-text">An extension of the basic bouncing ball, featuring multiple balls.</p>
+            <a href="./multiple.html" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow project-card">
+          <img src="./gravity.png" class="card-img-top" alt="Gravity Simulation">
+          <div class="card-body">
+            <h5 class="card-title">Gravity Physics Simulation</h5>
+            <p class="card-text">A basic implementation of gravity physics using Canvas.</p>
+            <a href="./gravity.html" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow project-card">
+          <img src="./interactable.png" class="card-img-top" alt="Interactive Balls">
+          <div class="card-body">
+            <h5 class="card-title">Interactive Balls</h5>
+            <p class="card-text">Demonstration of basic mouse interaction with Canvas elements.</p>
+            <a href="./interactable.html" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (optional, but needed for some Bootstrap features) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
